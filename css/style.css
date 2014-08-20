@@ -1,0 +1,80 @@
+h1, h2, h3, h4, h5, nav ul, nav li a, header, footer, body, .content, a:hover, a {
+
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+color: rgb(240, 240, 240);
+font-size: 1em;
+	
+	}
+
+h1 {
+
+	font-size: 2em;
+
+}
+
+header {
+
+	font-size: 32px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	text-align: center;
+	margin-right: 0px;
+
+
+}
+
+body {
+
+	background-color: rgb(64,64,64);
+}
+
+
+a {
+
+	color: white;
+	text-decoration: none;
+
+}
+
+a:hover {
+
+  text-decoration: underline;
+
+}
+
+nav ul {
+
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li a {
+
+	float: left;
+  	display: block;
+	text-decoration: none;
+	margin-right: 5px;
+	margin-left: 7px;
+
+
+}
+
+.tableDown {
+margin-top: 100px;
+
+}
+
+.textPage {
+
+	margin-top: 40px;
+	text-align: center;
+}
+
+footer {
+
+
+	margin-top: 400px;	
+	position: relative;
+	text-align: center;
+}
