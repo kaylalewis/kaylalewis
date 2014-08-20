@@ -1,6 +1,6 @@
 auto: true
 destination: kaylalewis.net
 markdown: kramdown
-pygments: true
+highlighter: true
 --- # Categories
 - art

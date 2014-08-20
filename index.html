@@ -5,8 +5,12 @@ layout: default
 
 	<div class="grid-two-thirds float-center">
 		<div class="row">
+			<div class="grid-img">
+				 <p><a href="http://transelemental.com"><img src="/img/transelementalMain.png"></a></p>
+				</div>
 			{% for post in site.posts %}
 				 {% if post.category == "art" %}
+
 				 <div class="grid-img">
 				 <p><a href="{{ post.url }}"><img src="{{ post.image }}"></a></p>
 				 </div>
