@@ -5,9 +5,7 @@ category: art
 image: /img/showerMain.png
 ---
 
-<div class="row">
-	<div class="grid-third float-center">
-	<img src="/img/shower1.jpg">
+<img src="/img/shower1.jpg">
 	<br>
 	<br>
 	"Shatter" uses poetry in the intimate space of a bathroom to encourage lone exploration and reconfiguration of chosen words.
@@ -20,5 +18,3 @@ image: /img/showerMain.png
 	<br>
 	<br>
 	<img src="/img/shower3.jpg">
-</div>
-
