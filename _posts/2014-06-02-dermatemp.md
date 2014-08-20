@@ -2,5 +2,5 @@
 layout: post
 title: DermaTemp
 category: art
-image: /img/dermatempMain.png
+image: /img/dermatempmain.png
 ---
