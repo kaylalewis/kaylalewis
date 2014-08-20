@@ -24,7 +24,7 @@ I focused heavily on ideas of branding and marketing the product as a way of lif
 
 <div class="row">
 <div class="grid-img"><p><img src="/img/caff3.jpg"></p></div>
-<div class="grid-img"><p><img src="/img/caff2.jpg"></p></div>
+<div class="grid-img"><p><img src="/img/caff7.jpg"></p></div>
 <div class="grid-img"><p><img src="/img/caff1.jpg"></p></div>
 <div class="grid-img"><p><img src="/img/caff6.jpg"></p></div>
 </div>
