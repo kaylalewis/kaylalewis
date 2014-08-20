@@ -1,6 +1,24 @@
 ---
 layout: post
-title: Fallen Tendrils
+title: Shatter
 category: art
 image: /img/showerMain.png
 ---
+
+<div class="row">
+	<div class="grid-third float-center">
+	<img src="/img/shower1.jpg">
+	<br>
+	<br>
+	"Shatter" uses poetry in the intimate space of a bathroom to encourage lone exploration and reconfiguration of chosen words.
+	<br>
+	<br>
+	<img src="/img/shower2.jpg">
+	<br>
+	<br>
+	Adjusting the doors casts some words under frosted glass, changing their emphasis.
+	<br>
+	<br>
+	<img src="/img/shower3.jpg">
+</div>
+
