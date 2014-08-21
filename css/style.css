@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, nav ul, nav li a, header, footer, body, .content, a:hover, a {
+h1, h2, h3, h4, h5, nav ul, nav li a, header, footer, body, .content, a:hover, a, sub {
 
 font-family: 'Lato', sans-serif;
 font-weight: 300;
@@ -40,6 +40,7 @@ a {
 a:hover {
 
   text-decoration: underline;
+  color: rgb(181,196,209);
 
 }
 
@@ -78,4 +79,10 @@ footer {
 	margin-top: 200px;	
 	position: relative;
 	text-align: center;
+}
+
+sub
+{
+
+	font-weight: normal;
 }

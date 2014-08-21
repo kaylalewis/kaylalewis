@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postCards
 title: Shatter
 category: art
 image: /img/showerMain.png
