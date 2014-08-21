@@ -11,10 +11,10 @@ image: /img/showerMain.png
 	"Shatter" uses poetry in the intimate space of a bathroom to encourage lone exploration and reconfiguration of chosen words.
 	<br>
 	<br>
-	<img src="/img/shower2.jpg">
+<img src="/img/shower2.jpg">
 	<br>
 	<br>
 	Adjusting the doors casts some words under frosted glass, changing their emphasis.
 	<br>
 	<br>
-	<img src="/img/shower3.jpg">
+<img src="/img/shower3.jpg">
