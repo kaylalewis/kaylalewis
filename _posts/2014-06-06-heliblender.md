@@ -2,7 +2,7 @@
 layout: postweird
 title: Heliblender
 category: art
-image: /img/hbMain.png
+image: /img/heliblender.png
 ---
 <div class="textPage">
 The future of consumerism involves a hybrid of a kitchen blender and a helicopter.

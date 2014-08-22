@@ -5,7 +5,7 @@ highlighter: true
 
 paginate: 8
 
-permalink: /:categories/:title
+permalink: /:title
 
 --- # Categories
 - art

@@ -2,7 +2,7 @@
 layout: postCards
 title: Shatter
 category: art
-image: /img/showerMain.png
+image: /img/shower.png
 ---
 
 <img src="/img/shower1.jpg">
