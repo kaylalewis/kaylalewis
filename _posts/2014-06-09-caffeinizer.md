@@ -7,7 +7,6 @@ image: /img/caffeinizer.png
 
 Caffeinizer epitomizes our dependence on coffee while we work by providing a tie with a coffeemaker embedded within. Sensors read the pulse of the user and trigger Caffeinizer to brew coffee when the pulse reaches a certain low.
 <br>
-<br>
 
 <iframe src="//player.vimeo.com/video/56205705?title=0&amp;byline=0&amp;portrait=0" width="800" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
