@@ -5,7 +5,9 @@ highlighter: true
 
 paginate: 8
 
-permalink: /:title
+permalink: /:categories/:title
 
 --- # Categories
 - art
+- transelemental
+- cv

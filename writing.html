@@ -3,12 +3,40 @@ layout: page
 title: Writing
 ---
 
-Below you will find links to pieces I have written or contributed to:
+
+
+<div class="writingTitle">
+Articles
+</div>
 <br>
+<a href="http://fnewsmagazine.com/wp-2/2013/10/03/out-of-the-lab-and-into-the-gallery/">"Out of the lab and into the gallery"</a>
+<br><br>
+<div class="writingTitle">
+Transelemental
+</div>
 <br>
-oFBook
+
+{% for post in site.posts %}
+
+	{% if post.category == "transelemental" %}
+		<a href="{{ post.url }}">{{ post.title }}</a>
+	{% endif %}
+
+{% endfor %}
+
+<br><br>
+<div class="writingTitle">
+Editor
+</div>
 <br>
-Out of the lab
+oFBook, an introduction to <a href="http://www.openframeworks.cc">openFrameworks</a> (in progress)
 <br>
-What it means to be alone
+<a href="http://thegrove.org.ohio-state.edu/styled-3/index.html">The Grove</a>, a creative writing journal at Ohio State University
+<br><br>
+<div class="writingTitle">
+Media and Publications Intern
+</div>
 <br>
+<a href="https://www.ohiobar.org/Pages/Home.aspx">The Ohio State Bar Association</a>
+<br>
+<a href="http://www.lincolntheatrecolumbus.com">Lincoln Theatre<a/>
