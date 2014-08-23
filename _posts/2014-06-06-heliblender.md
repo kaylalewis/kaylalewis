@@ -11,7 +11,7 @@ image: /img/heliblender.png
 <img src="/img/hb10.jpg">
 </div>
 <div class="grid-half">
-Heliblender for Radius 75.A, rotation 4 of 6
+Heliblender for Radius 75.A, rotation 1 of 3
 </div>
 </div>
 
