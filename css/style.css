@@ -9,7 +9,6 @@ font-size: 1em;
 
 title {
 
-	text-align: center;
 }
 
 h1 {
@@ -29,7 +28,7 @@ header {
 
 	font-size: 32px;
 	margin-top: 50px;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 	text-align: center;
 	margin-right: 0px;
 
@@ -75,7 +74,8 @@ nav li {
 nav a {
 
 	display:inline-block;
-	padding: 10px;
+	padding-right: 15px;
+	padding-left: 0px;
 }
 
 .tableDown {
