@@ -30,8 +30,8 @@ header {
 	margin-top: 50px;
 	margin-bottom: 10px;
 	text-align: center;
-	margin-right: 0px;
-
+	margin-right: auto;
+	margin-left: auto;
 
 }
 
@@ -59,8 +59,7 @@ nav {
 
 	list-style-type: none;
 	text-align: center;
-	margin: 0px;
-	padding: 0px;
+	margin: auto;
 }
 
 nav li {
@@ -74,8 +73,8 @@ nav li {
 nav a {
 
 	display:inline-block;
+	margin: auto;
 	padding-right: 15px;
-	padding-left: 0px;
 }
 
 .tableDown {
