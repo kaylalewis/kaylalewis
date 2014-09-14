@@ -59,7 +59,7 @@ nav {
 
 	list-style-type: none;
 	text-align: center;
-	margin: auto;
+	margin: 0 auto;
 }
 
 nav li {
@@ -73,7 +73,7 @@ nav li {
 nav a {
 
 	display:inline-block;
-	margin: auto;
+	margin: 0 auto;
 	padding-right: 15px;
 }
 
