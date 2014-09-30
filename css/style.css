@@ -28,11 +28,35 @@ header {
 
 	font-size: 32px;
 	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+
+}
+
+header.class {
+	padding:30px;
+	font-size: 32px;
+	margin-top: 0px;
 	margin-bottom: 10px;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
+	position:fixed;
+	width:100%;
+	left:0px;
+	background-color: rgb(64,64,64);
 
+}
+
+.subHeader {
+	padding-bottom: 30px;
+	margin-top: 100px;
+	text-align: center;
+	width:100%;
+	left:0px;
+	position:fixed;
+	text-align: center;
+	background-color: rgb(64,64,64);
 }
 
 body {
@@ -56,10 +80,11 @@ a:hover {
 }
 
 nav {
-
+	font-size:18px;
 	list-style-type: none;
 	text-align: center;
-	margin: 0 auto;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
 }
 
 nav li {
@@ -70,15 +95,16 @@ nav li {
 
 }
 
+
 nav a {
 
 	display:inline-block;
-	margin: 0 auto;
-	padding-right: 15px;
+	padding-right: 25px;
+	padding-left: 10px;
 }
 
 .tableDown {
-margin-top: 100px;
+margin-top: 50px;
 
 }
 
@@ -102,3 +128,44 @@ sub
 
 	font-weight: normal;
 }
+
+#navigation {
+
+position:fixed;
+background-color: rgb(64,64,64);
+height:35px;
+text-align: center;
+width:100%;
+left:0px;
+margin-top: 120px;
+
+
+
+}
+
+#navigation a {
+color: orange;
+font-size:18px;
+padding-left:15px;
+padding-right:15px;
+text-decoration: none;
+
+}
+
+#navigation a:hover {
+
+color:gray;
+
+}
+
+p {
+
+font-size: 18px;
+
+}
+
+.words {
+
+	font-size: 10px;
+}
+

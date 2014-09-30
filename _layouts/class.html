@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>  The Drifters |  Kayla Lewis </title>
+    <title> {% if page.title %} {{ page.title }} | {% endif %} Kayla Lewis </title>
 
     <!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -50,64 +50,25 @@
 
 <body>
 
- <div class="grid-half float-center">
+ <div class="grid-three-fourths float-center">
+ <header class="class">{{ page.title }}</header>
 
- <header><a href= "/">KAYLA LEWIS</a></header>
-
-
-    <nav role="navigation">
-      <ul>
-       
-        <li><a href="/about.html">about</a></li>
-        <li><a href="/writing.html">writing</a></li>
-        <li><a href="/teaching.html">teaching</a></li>
-        <li><a href="/contact.html">contact</a></li>
-     
-        
-      </ul>
-      </nav>
- 
-
-    </div>
+<div class="subHeader"> 
+{{ page.info }} 
+</div>
+<br> 
+<div id="navigation">
+    <a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#about">about</a>
+    <a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#assignments">assignments</a>
+    <a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#resources">resources</a>
+    <a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#schedule">schedule</a>
+</div>
+<br>
 
 <div class="container">
-    <div class="grid-two-thirds float-center">
-	<div class="textPage">
-		<h1>The Drifters</h1>
-	
-
-		<p>A father organizes heists to have his own paintings stolen, and his family suffers accordingly.
-<br />
-<br /></p>
-
-<p><img src="/img/1.jpg" />
-<br /><br />
-<img src="/img/2.jpg" />
-<br /><br />
-<img src="/img/3.jpg" />
-<br /><br />
-<img src="/img/4.jpg" />
-<br /><br />
-<img src="/img/5.jpg" />
-<br /><br />
-<img src="/img/6.jpg" />
-<br /><br />
-<img src="/img/7.jpg" />
-<br /><br />
-<img src="/img/8.jpg" />
-<br /><br />
-<img src="/img/9.jpg" />
-<br /><br />
-<img src="/img/10.jpg" />
-<br /><br />
-<img src="/img/11.jpg" /></p>
-
-
-
+    {{ content }}
 </div>
 </div>
-</div>
-
 
 <div class="grid-half float-center">
 
@@ -115,7 +76,7 @@
       @2014 Kayla Lewis
     </footer>
 </div>
-
+    </body>
 
     <script src="/js/kraken.js"></script>
 
@@ -128,6 +89,19 @@
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
 
-    </body>
+            <script src='js/smooth/bind-polyfill.js'></script>
+    <script src='js/smooth/smooth-scroll.js'></script>
+    <script>
+        smoothScroll.init({
+            speed: 1000,
+            easing: 'easeInOutCubic',
+            offset: 200,
+            updateURL: true,
+            callbackBefore: function ( toggle, anchor ) {},
+            callbackAfter: function ( toggle, anchor ) {}
+        });
+    </script>
+
+
 
 </html>
