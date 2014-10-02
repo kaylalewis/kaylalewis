@@ -1,5 +1,6 @@
 auto: true
 destination: kaylalewis.net
+url: http://kaylalewis.net
 markdown: kramdown
 highlighter: true
 
@@ -11,3 +12,4 @@ permalink: /:categories/:title
 - art
 - transelemental
 - cv
+- rhino
