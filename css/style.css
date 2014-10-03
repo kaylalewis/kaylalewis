@@ -17,6 +17,12 @@ h1 {
 
 }
 
+.classpost
+{
+
+	margin-top: 10px;
+}
+
 .writingTitle
 {
 
@@ -41,10 +47,34 @@ header.class {
 	margin-top: 0px;
 	margin-bottom: 10px;
 	text-align: center;
+	width:100%;
 	position:fixed;
+	left:0px;
+	background-color: rgb(64,64,64);
+
+}
+
+header.classpost {
+	padding:30px;
+	font-size: 32px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
 	width:100%;
 	left:0px;
 	background-color: rgb(64,64,64);
+
+}
+.classsubtitle {
+
+	font-size: 24px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+	width:100%;
+	left:0px;
+	background-color: rgb(64,64,64);
+	color:orange;
 
 }
 
@@ -69,6 +99,18 @@ a {
 
 	color: white;
 	text-decoration: none;
+
+}
+
+a.two {
+
+	color: orange;
+}
+
+a.two:hover {
+
+  text-decoration: none;
+  color: rgb(255,204,153);
 
 }
 
@@ -137,7 +179,8 @@ height:35px;
 text-align: center;
 width:100%;
 left:0px;
-margin-top: 150px;
+margin-top: 135px;
+margin-bottom: 60px;
 
 
 
@@ -154,7 +197,7 @@ text-decoration: none;
 
 #navigation a:hover {
 
-color:gray;
+color:rgb(255,204,153);
 
 }
 
