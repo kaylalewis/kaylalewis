@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>  Week 2 |  Kayla Lewis </title>
+
+    <!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Document Title & Description -->
+    <title></title>
+    <meta name="description" content="">
+
+    <!-- Mobile Screen Resizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="">
+
+    <!-- Apple Touch Icons -->
+    <!-- https://github.com/audreyr/favicon-cheat-sheet -->
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon-57.png">
+
+    <!-- MS Homescreen Icons -->
+    <meta name="msapplication-TileColor" content="#0088cc">
+    <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
+
+    <!-- Feature Test -->
+    <script src="/js/feature-test.js"></script>
+
+    <!-- HTML5 Shim for IE 6-8 -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/css/kraken.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+
+ <header class="classpost">Week 2</header>
+ <div class="classsubtitle">Points and Lines</div>
+<div class="container">
+<div class="grid-three-fourths float-center">
+<div class="classpost">
+
+	<p>Points and lines are the most accurate way of modeling in Rhino. Rhino differs from programs like Maya in that it is design-based and its emphasis lies in models made for output, like 3D printing. Therefore, compelx meshes used for animation and character modeling are not used in Rhino. There are ways, such as using Grasshopper, but for the most part, the key concept in Rhino is to keep it simple with NURBS and basic polygons. </p>
+
+<p>Using points and lines to build three dimensional objects allows for this level of accuracy and avoids messy modeling, which is a nightmare for 3D printing.</p>
+
+<p>So, following simple, clean methods, let’s build RoboFrog.</p>
+
+<p><strong>Remember to pay attention to the choices on the command line! You’ll be amazed at how helpful they are!</strong></p>
+
+<p>Notes:
+Right mouse click accepts command, it also repeats previous command
+<br />
+F10 turns on control point, F11 off
+<br />
+Pan in perspective view is click + ctrl 
+<br />
+Draw a parameter to keep a rough size guide
+<br />
+Holding down alt will prevent snapping</p>
+
+<p>I’ve drawn a quick sketch of some perspectives. Since RoboFrog is a pretty simple guy, we can just refer to the sketch instead of importing it to the Rhino viewports.</p>
+
+<p><img src="/img/RoboFrog.jpg" /></p>
+
+<p>Pipe or loft the limbs, toes, and frog hands</p>
+
+<p>Points as reference–you don’t always use them in the model directly.</p>
+
+<p>Extrude will become a really important command with line and point modeling. It’s how your 2D lines become lovely 3D models.
+When you make a polygon, if you need to manipulate it after it’s been extruded, you can easily delete the polysurface, adjust the polygon, and extrude again.</p>
+
+<p>Cap extrusions to fill in the top and bottom.</p>
+
+<p>With the pipe tool, if you right click after one diameter, it will apply the same diameter to the end.</p>
+
+<p>Also, <a class="two" href="http://edutechwiki.unige.ch/en/3D_file_format">here</a> is a list of file format extensions for 3D. Pretty helpful when saving and exporting. </p>
+
+
+</div>
+</div>
+</div>
+
+<div class="grid-half float-center">
+
+    <footer>
+      @2014 Kayla Lewis
+    </footer>
+</div>
+    </body>
+
+    <script src="/js/kraken.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+            <script src='js/smooth/bind-polyfill.js'></script>
+    <script src='js/smooth/smooth-scroll.js'></script>
+    <script>
+        smoothScroll.init({
+            speed: 1000,
+            easing: 'easeInOutCubic',
+            offset: 200,
+            updateURL: true,
+            callbackBefore: function ( toggle, anchor ) {},
+            callbackAfter: function ( toggle, anchor ) {}
+        });
+    </script>
+
+
+
+</html>
+
+
+
