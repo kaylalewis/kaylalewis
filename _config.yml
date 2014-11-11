@@ -13,3 +13,40 @@ permalink: /:categories/:title
 - transelemental
 - cv
 - rhino
+
+prose:
+  siteurl: 'http://kaylalewis.net'
+  media: 'img'
+  ignore: 
+    - index.html
+  metadata:
+    _posts:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+        field:
+        label:"Layout"
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Title Goes Here"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+            - name: "Pears"
+              value: "pears"
+            - name: "Mangos"
+              value: "mangos"
