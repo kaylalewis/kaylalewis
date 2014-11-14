@@ -51,32 +51,78 @@
 <body>
 
  <header class="classpost">Week 7</header>
- <div class="classsubtitle">Advanced Rhino</div>
+ <div class="classsubtitle">Still Keeping it Simple with Advanced Rhino</div>
 <div class="container">
 <div class="grid-three-fourths float-center">
 <div class="classpost">
 
-	<p>For more clarification, here is a list of some modeling terms in Rhino and a basic summary:</p>
+	<p>Rhino allows for more complex modeling, which can lead to organic shapes. For printing purposes, models must always be kept clean. Even though we are looking at advanced modeling, we still must keep things as simple as possible.</p>
 
-<p>-NURBS are everything: curves, surfaces, objects. <a class="two" href="http://www.rhino3d.com/nurbs">This</a> breaks down what NURBS mean very well and will help with modeling. NURBS are made specifically for point-based modeling.</p>
+<p>NURBS (non-uniform rational b-splines) are everything: curves, surfaces, objects. <a class="two" href="http://www.rhino3d.com/nurbs">This</a> breaks down what NURBS mean very well NURBS are made specifically for point-based modeling.</p>
 
-<p>Solid- premade shape</p>
+<p><strong>Review of NURBS Terminology</strong></p>
 
-<p>Surface- </p>
+<p>Curve- 2D lines or rounded curves, can be closed or opened</p>
 
-<p>Edge-</p>
+<p>Polycurve- multiple curves that can comprise the base before surface is applied</p>
 
-<p>Mesh- </p>
+<p>Surface- like stretching a sheet over your curves.</p>
 
-<p>Complex Commands</p>
+<p>Polysurface- multiple surfaces. Fills in and closes objects, making them 3D, can be opened too. </p>
 
-<p>-Blend-</p>
+<p>Solid- surfaces joined along a shared edge, closed.</p>
 
-<p>-Merge Surface-</p>
+<p>Up until this point, you have been modeling with NURBS. But when files are exported for 3D printing, the models are generally converted into meshes.</p>
 
-<p>-Split at isocurve- snaps lines (U or V) to objects on their isocurves and splits them. You can draw more isocurves in the object panel on the right.</p>
+<p>Meshes are more complex objects often composed of triangular segments.</p>
 
-<p>http://wiki.mcneel.com/rhino/faqclosedsolids</p>
+<p>Meshes are comparable to Photoshop pixel graphics vs. Illustrator’s vector graphics. NURBS are complex mathmatical formulae (you can read more about the math within the link at the botton of the Rhino NURBS page, if you want). NURBS can easily be reconfigured and maintain their printable structure. NURB isocurves follow the same mathmatical reconfiguration and easily manipulated, too. Think of NURBS like vector graphics.</p>
+
+<p>NURBS version of model on the left, mesh on the right (note triangles).
+<img src="/img/firstnvm.png" /></p>
+
+<p>Where we don’t have control points for this object as a NURB because of its polysurfaces (use control points when drawing polylines, remember “rebuild” command) , once made into a mesh, we do gain access.
+<img src="/img/firstnvmpoints.png" /></p>
+
+<p>When I manipulate control points, I get a huge hole that would lead to printer malfunction and will also be difficult to repair within the model itself.
+<img src="/img/firstnvmmess.png" /></p>
+
+<p>Meshes are more like pixel imaging: adjusting and resizing them causes them to lose the quality of their initial structure, the way images in Photoshop become pixelated.</p>
+
+<p>Another NURBS and mesh version of a model. This mesh is less complex, but you can see triangular formations up top, letting you know what it is.
+<img src="/img/curvenvm.png" /></p>
+
+<p>Manipulating control points in NURBS is much more controlled and printable (left). The right mesh manipulation is messy.
+<img src="/img/curvenvmpoints.png" /></p>
+
+<p>Meshes provide precision for more organic objects, but 3D printing a mesh modeled in Rhino is much more difficult than NURBS, which are easier to fix and keep simple. Because, as always with 3D printing and Rhino, simple is key. </p>
+
+<p>Additionally, meshes have their own set of commands (found under the mesh tab) that differ from the commands we’ve learned thus far (NURBS commands).</p>
+
+<p>Meshes are heavily used in Maya and Cinema4d for animation, or rendering meant to remain in a computer. Bringing things into real life makes them much more complicated.</p>
+
+<p>If you do want to use meshes, build the model using NURBS until its final stages, make it into a mesh, and add finishing touches–e.g. more “organic” curvature.  </p>
+
+<p>OR, you can stick with NURBS and up their precision without the fear of mesh malfunctions:</p>
+
+<p><strong>Complex Commands for NURBS</strong>
+(some of which we’ve gone over, all of which are found under the Surface tab in the same group)</p>
+
+<p>All of these rely on strong polycurves drawn beforehand.</p>
+
+<p>-Corner Points (SrfPt)- draws points and wraps surface over them</p>
+
+<p>-Curve Network (NetworkSrf)- draw surface over curves drawn in a network (they are all connected)</p>
+
+<p>-Edge Curves (EdgSrf)- makes a surface over open curves, and the surface curves along the structure</p>
+
+<p>-Planar Curves (PlanarSrf)- creates flat surfaces along given 2D curves</p>
+
+<p>Here are links to the Advanced Output Center printer info and how to set up files to print (very informative, please follow). Remember, if a file is messed up, you’ll have to pay to have another made, so be careful and take your time.</p>
+
+<p><a class="two" href="http://crit.artic.edu/aoc/level2_aoc_3dp.php">AOC Printers</a></p>
+
+<p><a class="two" href="http://crit.artic.edu/aoc/pdfs/aoc_3dpprep.pdf">AOC File Setup</a></p>
 
 </div>
 </div>
