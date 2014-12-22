@@ -17,6 +17,11 @@ h1 {
 
 }
 
+h2{
+
+	font-size: 1.5em;
+}
+
 .classpost
 {
 
@@ -116,7 +121,7 @@ a.two:hover {
 
 a:hover {
 
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(181,196,209);
 
 }
@@ -135,6 +140,11 @@ nav li {
   	display: inline;
 	
 
+}
+
+li {
+
+	list-style-type: none;
 }
 
 

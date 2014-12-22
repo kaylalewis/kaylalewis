@@ -1,0 +1,15 @@
+---
+layout: page
+title: Sketchbook
+---
+A place for things without a place.
+<br>
+<br>
+<br>
+{% for post in site.posts %}
+				 {% if post.category == "sketch" %}
+ 				<li>
+					<h2>{{ post.title }}</h2><br>{{post.content}}<br><br>
+      			</li>
+      			{% endif %}
+{% endfor %}
