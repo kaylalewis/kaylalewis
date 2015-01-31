@@ -170,8 +170,8 @@ margin-top: 50px;
 footer {
 
 
-	margin-top: 400px;	
-	position: relative;
+	margin-top: 100%;
+	margin-bottom: 0%;	
 	text-align: center;
 }
 
