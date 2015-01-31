@@ -2,7 +2,7 @@ auto: true
 destination: kaylalewis.net
 url: http://kaylalewis.net
 markdown: kramdown
-highlighter: true
+highlighter: pygments
 
 paginate: 8
 
