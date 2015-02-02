@@ -1,25 +1,29 @@
-h1, h2, h3, h4, h5, nav ul, nav li a, header, footer, body, .content, a:hover, a, sub {
+h1,h2,h3, h4, h5, nav ul, nav li a, footer, body, .content, sub {
 
 font-family: 'Lato', sans-serif;
-font-weight: 300;
 color: rgb(240, 240, 240);
-font-size: 1em;
+font-weight: 300;
 	
 	}
 
-title {
 
+
+body{
+
+	font-size: 21px;
+	background-color: rgb(64,64,64);
 }
+
 
 h1 {
 
-	font-size: 2em;
+	font-size: 1.5em;
 
 }
 
 h2{
 
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .classpost
@@ -37,12 +41,14 @@ h2{
 
 header {
 
-	font-size: 32px;
-	margin-top: 50px;
-	margin-bottom: 20px;
+	font-size: 1.7em;
+	margin-top: 10%;
+	margin-bottom: 3%;
 	text-align: center;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
+	font-weight: 300;
+
 
 }
 
@@ -94,10 +100,6 @@ header.classpost {
 	background-color: rgb(64,64,64);
 }
 
-body {
-
-	background-color: rgb(64,64,64);
-}
 
 
 a {
@@ -122,12 +124,25 @@ a.two:hover {
 a:hover {
 
   text-decoration: none;
-  color: rgb(181,196,209);
+  color: #8ac1c1;
+
+}
+
+a.notnav {
+	text-decoration: none;
+	color: #8ac1c1;
+}
+
+a.notnav:hover {
+text-decoration: none;
+color:#6b9696;
+
+;
 
 }
 
 nav {
-	font-size:18px;
+	font-size:1em;
 	list-style-type: none;
 	text-align: center;
 	margin-left: 0 auto;
@@ -151,8 +166,8 @@ li {
 nav a {
 
 	display:inline-block;
-	padding-right: 25px;
-	padding-left: 10px;
+	margin-right: 20px;
+
 }
 
 .tableDown {
@@ -162,7 +177,7 @@ margin-top: 50px;
 
 .textPage {
 
-	margin-top: 40px;
+	margin-top: 2%;
 	text-align: center;
 
 }
@@ -213,7 +228,7 @@ color:rgb(255,204,153);
 
 p {
 
-font-size: 18px;
+
 margin-bottom: 1.5em;
 
 }
@@ -222,4 +237,13 @@ margin-bottom: 1.5em;
 
 	font-size: 10px;
 }
+
+.pageWithin {
+
+	background-color: white;
+	overflow: auto;
+	width: 100%;
+	height: 500px;
+}
+
 
