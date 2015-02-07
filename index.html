@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-<div class ="tableDown">
 
-	<div class="grid-three-fourths float-center">
-		<div class="row">
+	<div class="row">
+
 			<div class="grid-img">
-				 <p><a href="http://transelemental.com"><img src="/img/trans.png"></a></p>
+				<p><a href="http://transelemental.com" class="wrapper"><span class="text">Transelemental</span><img src="/img/main/pot4.jpg"></a></p>
 				</div>
 			{% for post in site.posts %}
 				 {% if post.category == "art" %}
 
 				 <div class="grid-img">
-				 <p><a href="{{ post.url }}"><img src="{{ post.image }}"></a></p>
+				 <p><a href="{{ post.url }}" class="wrapper"><span class="text">{{post.title}}</span><img src="{{ post.image }}"></a></p>
 				 </div>
 					{% endif %}
 				{% endfor %}
 			</div>
-	</div>
-</div>
+
+
+

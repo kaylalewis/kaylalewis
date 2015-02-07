@@ -2,7 +2,7 @@
 layout: postweird
 title: Heliblender
 category: art
-image: /img/heliblender.png
+image: /img/main/hb1.jpg
 ---
 <br>
 

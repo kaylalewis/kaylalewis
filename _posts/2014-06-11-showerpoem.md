@@ -1,8 +1,8 @@
 ---
-layout: postCards
+layout: post
 title: Shatter
 category: art
-image: /img/shower.png
+image: /img/main/shower2.jpg
 ---
 
 <img src="/img/shower1.jpg">
