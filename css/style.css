@@ -26,11 +26,7 @@ h2{
 	font-size: 1.2em;
 }
 
-.classpost
-{
 
-	margin-top: 10px;
-}
 
 .writingTitle
 {
@@ -166,6 +162,12 @@ header.classpost {
 	background-color: rgb(64,64,64);
 
 }
+
+.classpost
+{
+
+	margin-top: 10px;
+}
 .classsubtitle {
 
 	font-size: 24px;
@@ -227,7 +229,6 @@ a.notnav:hover {
 text-decoration: none;
 color:#6b9696;
 
-;
 
 }
 
@@ -241,7 +242,63 @@ li{
 	list-style: none;
 }
 
+/*htmlclass*/
 
+
+#htmlNav {
+
+position:fixed;
+background-color: rgb(64,64,64);
+height:35px;
+text-align: center;
+width:100%;
+left:0px;
+margin-top: 135px;
+margin-bottom: 60px;
+
+
+
+}
+
+#htmlNav a {
+color: #FFADAD;
+font-size:18px;
+padding-left:15px;
+padding-right:15px;
+text-decoration: none;
+
+}
+
+#htmlNav a:hover {
+
+color:#7DDEDE;
+
+}
+
+a.three {
+
+	color:#FFADAD;
+}
+
+a.three:hover {
+
+  text-decoration: none;
+  color: #7DDEDE;
+
+}
+
+ .coral{
+color:#FFADAD;
+ }
+
+#hi, #i, #am, #kayla {
+
+	font-size: 1.3em;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-bottom-color:#7DDEDE ; 
+}
+/*==========*/
 
 
 .textPage {
@@ -383,6 +440,8 @@ img {
 
 
 }
+
+
 
 @media only screen and (max-width : 640px) {
 
