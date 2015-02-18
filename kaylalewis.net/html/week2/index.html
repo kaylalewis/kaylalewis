@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>  Week 2 |  Kayla Lewis </title>
+
+    <!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Document Title & Description -->
+    <title></title>
+    <meta name="description" content="">
+
+    <!-- Mobile Screen Resizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="">
+
+    <!-- Apple Touch Icons -->
+    <!-- https://github.com/audreyr/favicon-cheat-sheet -->
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon-57.png">
+
+    <!-- MS Homescreen Icons -->
+    <meta name="msapplication-TileColor" content="#0088cc">
+    <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
+
+    <!-- Feature Test -->
+    <script src="/js/feature-test.js"></script>
+
+    <!-- HTML5 Shim for IE 6-8 -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/css/kraken.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+
+ <header class="classpost">Week 2</header>
+ <div class="htmlclasssubtitle">Elements of Everything</div>
+
+<div class="container">
+<div class="grid-three-fourths float-center">
+<div class="classpost">
+
+  <p>Last week we touched on elements used in HTML like p, h1, or section. They are always contained in tags <element>. Although elements sound like the simplest term, they are actually a subgroup of nodes. **Nodes** include all components of your HTML. They are the building blocks of the DOM model (we also touched on DOM last week).</element></p>
+
+<p>In order to fully understand HTML, it’s important to be aware of terminology and how to distinguish between types of nodes. This awareness helps with understanding heirarchy–both in HTML and CSS, which we will cover today.</p>
+
+<h1 id="parent-child-sibling">Parent, Child, Sibling</h1>
+
+<p>HTML sets you up with a family-like relationship between elements. The same relationships translate to CSS, so when you designate styles, you can set up one for the ‘p’ child of all ‘h1’ elements, meaning any paragraphs that are nested one level after heading 1 will adopt the style.</p>
+
+<p>We will get into these more complex relationships later in the course, but you can see how important your HTML structure becomes once you move into more complex CSS.</p>
+
+<p>Let’s look at Parent-Child relationships in HTML:</p>
+
+<pre><code>      &lt;div&gt; &lt;!--This is a parent--&gt;
+        &lt;p&gt; This is a child of div &lt;/p&gt;
+        &lt;p&gt; This is a child of div &lt;/p&gt;
+        &lt;ul&gt; &lt;!-- This is a child of div --&gt;
+          &lt;li&gt; But these are not because they are not direct descendants of div&lt;/li&gt;
+          &lt;li&gt; These aren't either!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+</code></pre>
+
+<p>You can imagine how these would translate to CSS, where you can specify something like every p child of a div is blue.</p>
+
+<h1 id="css-basics">CSS Basics</h1>
+
+<p>CSS stands for cascading style sheet, which is a fancy way of saying it’s what gives your page color, font families, and various sizing and spacing capabilities.</p>
+
+<p><img src="/../img/cssMap.gif" /></p>
+
+<h3 id="class">Class</h3>
+
+<p>Classes are written in your CSS as .className, and plugged into HTML as class=”className”</p>
+
+<h3 id="id">Id</h3>
+
+<p>Ids are written in your CSS as #idName, and plugged into HTML as id=”idName”</p>
+
+<h3 id="margins">Margins</h3>
+
+<p>Margins add space to the outer borders of your element. They are CSS properties and used in your CSS file along       with the selector.</p>
+
+<h3 id="display-block">Display: Block</h3>
+
+<p>Makes an inline element act like a standalone, block level (helps center images)</p>
+
+<h3 id="width">Width</h3>
+
+<p>Using percentages for width is a simple way to get a page that responds to various screen dimensions</p>
+
+<h3 id="text">Text</h3>
+
+<p>Styling text in CSS includes too many options to list, so play around with potential styles and refer to the “text -“ properties listed <a class="three" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">here</a>.</p>
+
+<p><a class="three" href="../../week2.zip" target="_blank">Download example site</a></p>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="grid-half float-center">
+
+    <footer>
+      @2015 <a href="kaylalewis.net" class="three">Kayla Lewis</a>
+    </footer>
+</div>
+    </body>
+
+    <script src="/js/kraken.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+            <script src='js/smooth/bind-polyfill.js'></script>
+    <script src='js/smooth/smooth-scroll.js'></script>
+    <script>
+        smoothScroll.init({
+            speed: 1000,
+            easing: 'easeInOutCubic',
+            offset: 200,
+            updateURL: true,
+            callbackBefore: function ( toggle, anchor ) {},
+            callbackAfter: function ( toggle, anchor ) {}
+        });
+    </script>
+
+
+
+</html>
+
