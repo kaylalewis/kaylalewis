@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>  Week 3 |  Kayla Lewis </title>
+
+    <!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Document Title & Description -->
+    <title></title>
+    <meta name="description" content="">
+
+    <!-- Mobile Screen Resizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="">
+
+    <!-- Apple Touch Icons -->
+    <!-- https://github.com/audreyr/favicon-cheat-sheet -->
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon-57.png">
+
+    <!-- MS Homescreen Icons -->
+    <meta name="msapplication-TileColor" content="#0088cc">
+    <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
+
+    <!-- Feature Test -->
+    <script src="/js/feature-test.js"></script>
+
+    <!-- HTML5 Shim for IE 6-8 -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/css/kraken.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+
+ <header class="classpost">Week 3</header>
+ <div class="htmlclasssubtitle">Responsive Sites and Navigation</div>
+
+<div class="container">
+<div class="grid-three-fourths float-center">
+<div class="classpost">
+
+  <p>By now, you have a pretty good understanding of the basic structures of HTML and CSS. Today, we will continue to
+implement these skills into building websites that employ flexible user interfaces – i.e. they morph to fit the dimensions of any screen and re-adjust components like nav bars depending on the screen size.</p>
+
+<p>We will first build a page that is responsive and write the CSS by hand (complete with simple nav bar) to understand how it works, and then use a CSS boilerplate called Kraken to make a responsive site for us.</p>
+
+<h2 id="display-property">Display Property</h2>
+
+<p>The “display” property in CSS is responsible for different types of positioning. It often eliminates the use of float, and also is used to switch out classes in media queries.</p>
+
+<pre><code>    display: none;
+    display: block;
+    display: inline-block;
+</code></pre>
+
+<p><a class="three" href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">MDN Display Property</a></p>
+
+<h2 id="media-queries">Media Queries</h2>
+
+<p>Media queries are magical things that let you radically change the appearance of a site based off screen size.
+The syntax in CSS looks like this:</p>
+
+<pre><code>    @media (max-width: 600px) {
+
+      /*your code here*/
+
+    }
+</code></pre>
+
+<p><a class="three" href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries">MDN Media Queries</a></p>
+
+<h2 id="kraken">Kraken</h2>
+
+<p><a class="three" href="../../week3.zip">Kraken Week Three Example</a></p>
+
+<p><a class="three" href="http://cferdinandi.github.io/kraken/">Kraken</a></p>
+
+<p><strong>Sass</strong> stands for “syntactically awesome style sheets” – it’s a CSS extension language that Kraken uses.</p>
+
+<h3 id="kraken-grid">Kraken Grid</h3>
+
+<pre><code>    &lt;div class="container"&gt;
+
+    &lt;p&gt;Kraken uses a fluid, mobile-first grid system...&lt;/p&gt;
+
+    &lt;div class="row"&gt;
+    &lt;div class="grid-third"&gt;.grid-third&lt;/div&gt;
+    &lt;div class="grid-two-thirds"&gt;.grid-two-thirds&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="row"&gt;
+    &lt;div class="grid-fourth"&gt;.grid-fourth&lt;/div&gt;
+    &lt;div class="grid-three-fourths"&gt;.grid-three-fourths&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="row"&gt;
+    &lt;div class="grid-half"&gt;.grid-half&lt;/div&gt;
+    &lt;div class="grid-half"&gt;.grid-half&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="row"&gt;
+    &lt;div class="grid-full"&gt;.grid-full&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;/div&gt;
+</code></pre>
+
+<p>For next week, play around with Kraken, media queries, and nav bars to customize your site accordingly.</p>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="grid-half float-center">
+
+    <footer>
+      @2015 <a href="kaylalewis.net" class="three">Kayla Lewis</a>
+    </footer>
+</div>
+    </body>
+
+    <script src="/js/kraken.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+            <script src='js/smooth/bind-polyfill.js'></script>
+    <script src='js/smooth/smooth-scroll.js'></script>
+    <script>
+        smoothScroll.init({
+            speed: 1000,
+            easing: 'easeInOutCubic',
+            offset: 200,
+            updateURL: true,
+            callbackBefore: function ( toggle, anchor ) {},
+            callbackAfter: function ( toggle, anchor ) {}
+        });
+    </script>
+
+
+
+</html>
+
