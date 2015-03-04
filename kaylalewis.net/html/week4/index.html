@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>  Week 4 |  Kayla Lewis </title>
+
+    <!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Document Title & Description -->
+    <title></title>
+    <meta name="description" content="">
+
+    <!-- Mobile Screen Resizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="">
+
+    <!-- Apple Touch Icons -->
+    <!-- https://github.com/audreyr/favicon-cheat-sheet -->
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon-57.png">
+
+    <!-- MS Homescreen Icons -->
+    <meta name="msapplication-TileColor" content="#0088cc">
+    <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
+
+    <!-- Feature Test -->
+    <script src="/js/feature-test.js"></script>
+
+    <!-- HTML5 Shim for IE 6-8 -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/css/kraken.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+
+ <header class="classpost">Week 4</header>
+ <div class="htmlclasssubtitle">Troubleshooting 101 and Nav Bars</div>
+
+<div class="container">
+<div class="grid-three-fourths float-center">
+<div class="classpost">
+
+  <p>Finding errors in code can be extremely difficult without a plan of action. It’s important to be aware of the most common errors in writing for the web. If you find that none of the most common errors are the issue, it’s time to go to a site like Stack Overflow, where someone has probably already asked your question (which is the case 99% of the time). If not, you can ask the question yourself.</p>
+
+<p>But before you assume the worst, go through this checklist and be sure none of these common culprits are affecting your code:</p>
+
+<h2 id="closing-tags">Closing tags</h2>
+<ul>
+  <li>
+    <h3 id="bad">Bad</h3>
+    <pre><code>  &lt;a href = "www.google.com"&gt;Google.com
+  If I don't close this then my link extends through all of my text.
+</code></pre>
+  </li>
+  <li>
+    <h3 id="good">Good</h3>
+    <pre><code>&lt;a href="www.google.com"&gt;Google.com&lt;/a&gt;
+Closing means the link only links where I want.
+</code></pre>
+  </li>
+  <li>Links are the most commonly unclosed tag. Divs come in at a close second, since they can span through such a large body of text.</li>
+</ul>
+
+<h2 id="semicolons-and-brackets">Semicolons and Brackets</h2>
+<ul>
+  <li>End each CSS value with a semicolon. Semicolons become more of an issue when using Javascript or jQuery.</li>
+  <li>
+    <p>House all values of a selector in curly brackets. If you do not close the brackets, your CSS values will not work correctly.</p>
+
+    <pre><code>  h1{
+      color:red;
+  }
+</code></pre>
+  </li>
+</ul>
+
+<h2 id="file-paths">File paths</h2>
+<ul>
+  <li>
+    <p>Nested files and folders must be properly accessed. If I want to access the Goya image from index.html, I would type</p>
+
+    <pre><code>  &lt;img src="img/Goya.jpg&gt;
+</code></pre>
+  </li>
+  <li>
+    <p>because the image is within the img folder. If I wanted to link to that same image in my CSS file, I’d type</p>
+
+    <pre><code>  ../img/Goya.jpg
+</code></pre>
+  </li>
+  <li>
+    <p>because I need to go out a folder level (..) and then back into the ‘img’ folder.</p>
+  </li>
+  <li>
+    <p><img src="/../img/goyashot.png" /></p>
+  </li>
+</ul>
+
+<h2 id="linking-to-stylesheets-etc">Linking to stylesheets, etc.</h2>
+
+<pre><code>    &lt;link rel="stylesheet" href="css/style.css"&gt;
+    &lt;script src="/js/myjs.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<h2 id="folder-hierarchy-and-placement">Folder hierarchy and placement</h2>
+<ul>
+  <li>
+    <p>Remember to contain all of your website content in the same folder. Be mindful of organization: images for one page can go within the images folder, or you can make another folder in the images folder that houses just Page One images.</p>
+  </li>
+  <li>
+    <p>The home page of any site MUST be index.html for DOM reading purposes. If there is no index.html file, your website will not load correctly.</p>
+  </li>
+</ul>
+
+<h2 id="weird-css-relationships">Weird CSS Relationships</h2>
+
+<ul>
+  <li>
+    <p>Alignment and placement of objects is affected by inheritance. If a div is positioned a certain way and you try to change alignment of an element within, that element is already affected by the div’s alignment.</p>
+  </li>
+  <li>
+    <p>Browser debug options, which can be found on Chrome, Firefox, and the newest version of Safari, allows you to highlight over your code and see what lines apply to what styles. The console will also tell you if there are any errors in your code. Sometimes it can clearly define where the error is…sometimes it isn’t clear at all.</p>
+  </li>
+  <li>
+    <p>Sometimes it’s possible to get away with these errors when running your site locally (i.e. from your own computer). But once you host with a client (i.e. make the site accessible to anyone), the errors will show. So it’s best to practice clean coding from the beginning.</p>
+  </li>
+</ul>
+
+<h2 id="nav-demo">Nav Demo</h2>
+
+<p>We will manually build a navbar and then explore the capabilities of Bootstrap’s preset navbars.</p>
+
+<!-- <a class="three" href="../../week4.zip">Navs Example</a> -->
+<p><a class="three" href="../../week4Boot.zip">Bootstrap Navbar Example</a></p>
+
+<h3 id="further-reference">Further Reference</h3>
+
+<p><a href="http://getbootstrap.com/components/#navbar" class="three">Bootstrap Navbar Documentation</a></p>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" class="three">MDN CSS Positioning</a></p>
+
+<h2 id="hands-on-with-console-debug">Hands on with console debug</h2>
+
+<p><a href="https://developer.chrome.com/devtools" class="three">For Chrome</a></p>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/UI_Tour" class="three">Firefox Page Inspector</a></p>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="grid-half float-center">
+
+    <footer>
+      @2015 <a href="kaylalewis.net" class="three">Kayla Lewis</a>
+    </footer>
+</div>
+    </body>
+
+    <script src="/js/kraken.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+            <script src='js/smooth/bind-polyfill.js'></script>
+    <script src='js/smooth/smooth-scroll.js'></script>
+    <script>
+        smoothScroll.init({
+            speed: 1000,
+            easing: 'easeInOutCubic',
+            offset: 200,
+            updateURL: true,
+            callbackBefore: function ( toggle, anchor ) {},
+            callbackAfter: function ( toggle, anchor ) {}
+        });
+    </script>
+
+
+
+</html>
+
