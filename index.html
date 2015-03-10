@@ -1,17 +1,19 @@
 ---
 layout: default
 ---
-<div class="table">
-	<div class="row">
-			<div class="grid-img">
-				<p><a href="http://transelemental.com" class="wrapper"><span class="text">Transelemental</span><img src="/img/main/pot4.jpg"></a></p>
-				</div>
+<!-- <div class="container">
+			<div class="grid-full float-center"> -->
+			<!-- 	<a href="http://transelemental.com" class="wrapper"><span class="text">Transelemental</span><img src="/img/main/pot4.jpg"></a>
 			{% for post in site.posts %}
 				 {% if post.category == "art" %}
+				 <a href="{{ post.url }}" class="wrapper"><span class="text">{{post.title}}</span><img src="{{ post.image }}"></a>
+					{% endif %}
+				{% endfor %} -->
 
-				 <div class="grid-img">
-				 <p><a href="{{ post.url }}" class="wrapper"><span class="text">{{post.title}}</span><img src="{{ post.image }}"></a></p>
-				 </div>
+				<a href="http://transelemental.com"><img src="/img/main/pot4.jpg"></a>
+			{% for post in site.posts %}
+				 {% if post.category == "art" %}
+				 <a href="{{ post.url }}"><img src="{{ post.image }}"></a>
 					{% endif %}
 				{% endfor %}
 			
