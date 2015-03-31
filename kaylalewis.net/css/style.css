@@ -125,7 +125,7 @@ nav ul {
 
 
 	nav ul ul {
-		background: #202020; border-radius: 0px; padding:0px;
+		background: #202020; border-radius: 0px; margin-left: -15px;
 		position: absolute;
 		z-index: 15;
 	}
