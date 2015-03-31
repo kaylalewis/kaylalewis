@@ -156,7 +156,7 @@ nav ul {
 
 /*things for class */
 
-header.class {
+header.notclass {
 	padding:30px;
 	font-size: 32px;
 	margin-top: 0px;
@@ -479,6 +479,16 @@ img {
 
 
 @media only screen and (max-width : 640px) {
+
+
+
+#navigation, #htmlNav, header.notclass, .subHeader {
+
+position:relative; 
+
+}
+
+
 
 	.me {
 
