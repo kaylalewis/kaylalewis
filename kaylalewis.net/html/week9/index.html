@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>  Week 9 |  Kayla Lewis </title>
+
+    <!-- Force latest available IE rendering engine and Chrome Frame (if installed) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Document Title & Description -->
+    <title></title>
+    <meta name="description" content="">
+
+    <!-- Mobile Screen Resizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="">
+
+    <!-- Apple Touch Icons -->
+    <!-- https://github.com/audreyr/favicon-cheat-sheet -->
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon-57.png">
+
+    <!-- MS Homescreen Icons -->
+    <meta name="msapplication-TileColor" content="#0088cc">
+    <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
+
+    <!-- Feature Test -->
+    <script src="/js/feature-test.js"></script>
+
+    <!-- HTML5 Shim for IE 6-8 -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/css/kraken.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+
+ <header class="classpost">Week 9</header>
+ <div class="htmlclasssubtitle">Finalizing your site</div>
+
+<div class="container">
+<div class="grid-three-fourths float-center">
+<div class="classpost">
+
+  <h1 id="hosting-favicons-and-jquery-additions">Hosting, favicons, and jQuery additions</h1>
+
+<p>Today we will go over hosting options and protocol.</p>
+
+<h2 id="hosting">Hosting</h2>
+
+<p>Hosting services require a yearly fee to hold and make your site accessible on the web. Domain names also cost money, with pricing based on demand for certain names and extensions (top-level domains).</p>
+
+<p><a href="http://mentalfloss.com/article/30583/weird-world-country-specific-web-domains" class="three">Weird extensions</a> that you see are most likely based off countries. See a complete list <a href="http://en.wikipedia.org/wiki/List_of_Internet_top-level_domains" class="three">here</a>.</p>
+
+<p>Common hosting/domain register companies include</p>
+
+<ul>
+  <li>BlueHost</li>
+  <li>GoDaddy</li>
+  <li>DreamHost</li>
+  <li>HostGator</li>
+</ul>
+
+<p>But there are <a href="http://www.pcmag.com/article2/0,2817,2424725,00.asp" class="three">many</a> to choose from.</p>
+
+<p>In order to get files from your computer to the host server, you need to use a file transfer protocol (FTP). <a href="https://filezilla-project.org" class="three">Filezilla</a> is a common program to facilitate this. </p>
+
+<p><a href="https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en)" class="three">Filezilla How-to</a></p>
+
+<h2 id="favicons">Favicons</h2>
+
+<p>Favicons (like the Wikipedia ‘W’) can add a nice touch to sites, especially for branding. Safari and Opera support favicons in the search bar, but other browsers don’t.</p>
+
+<p><a href="http://www.favicon.cc" class="three">Simple Favicon generator</a> </p>
+
+<p>Apply this code to your head:</p>
+
+<pre><code>    &lt;link rel="icon" type="image/png" href="/images/myfavicon.png" /&gt;
+</code></pre>
+
+<h2 id="assignment">Assignment</h2>
+
+<p>Find and implement a jQuery image slider and plug it into a page laid out like this:</p>
+
+<p><img src="/../img/week9.jpg" width="50%" /></p>
+
+<p><a href="http://www.slidesjs.com" class="three">slide.js</a> is nice and simple, but browse for others and find one that’s best for you–i.e. one you’d use in your own site.</p>
+
+<p>slide.js zip <a class="three" href="../../slides.zip" target="_blank">slide.js zip</a></p>
+
+<p><a class="three" href="../../week9.zip" target="_blank">Source code</a> for how I used slide.js.</p>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="grid-half float-center">
+
+    <footer>
+      @2015 <a href="kaylalewis.net" class="three">Kayla Lewis</a>
+    </footer>
+</div>
+    </body>
+
+    <script src="/js/kraken.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+            <script src='js/smooth/bind-polyfill.js'></script>
+    <script src='js/smooth/smooth-scroll.js'></script>
+    <script>
+        smoothScroll.init({
+            speed: 1000,
+            easing: 'easeInOutCubic',
+            offset: 200,
+            updateURL: true,
+            callbackBefore: function ( toggle, anchor ) {},
+            callbackAfter: function ( toggle, anchor ) {}
+        });
+    </script>
+
+
+
+</html>
+
