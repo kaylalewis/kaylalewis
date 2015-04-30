@@ -16,7 +16,7 @@ During the show, I wore Caffeinizer and participants touched the sensor on my wr
 <br>
 <img src="/img/caff5.jpg">
 <br>
-I focused heavily on ideas of branding and marketing the product as a way of life, not just an object in life. When people used Caffeinizer in the installation, they received a sticker that declared them "caffeinized."
+I focused heavily on ideas of branding and marketing the product as a way of life, not just an object in life. When people used Caffeinizer, they received a sticker that declared them "caffeinized."
 <br>
 <br>
 <br>
