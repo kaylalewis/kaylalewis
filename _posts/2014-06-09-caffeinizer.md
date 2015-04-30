@@ -10,7 +10,7 @@ Caffeinizer epitomizes our dependence on coffee while we work by providing a tie
 
 <iframe src="//player.vimeo.com/video/56205705?title=0&amp;byline=0&amp;portrait=0" width="800" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-During installation, I wore Caffeinizer and participants touched the sensor on my wrist so that Caffeinizer could make coffee for them.
+During the show, I wore Caffeinizer and participants touched the sensor on my wrist so that Caffeinizer could make coffee for them.
 <br>
 <br>
 <br>
