@@ -7,7 +7,7 @@ image: /img/main/caff1.jpg
 
 
 
-<iframe src="//player.vimeo.com/video/56205705?title=0&amp;byline=0&amp;portrait=0" width="800" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/56205705?title=0&amp;byline=0&amp;portrait=0" width="700" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <br>
 <br>
 
