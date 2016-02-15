@@ -33,7 +33,6 @@
     <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
 
     <!-- Feature Test -->
-    <script src="/js/feature-test.js"></script>
 
     <!-- HTML5 Shim for IE 6-8 -->
     <!--[if lt IE 9]>
@@ -41,23 +40,40 @@
     <![endif]-->
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="/css/kraken.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abel|Oxygen:400,300' rel='stylesheet' type='text/css'>
 
 </head>
 
 
 <body>
 
- <header class="classpost">Week 7</header>
- <div class="classsubtitle">Still Keeping it Simple with Advanced Rhino</div>
+<div class = "col-md-8 col-md-offset-2">
 
-<div class="container">
-<div class="grid-three-fourths float-center">
-<div class="classpost">
+<header>
 
-	<p>Rhino allows for more complex modeling, which can lead to organic shapes. For printing purposes, models must always be kept clean. Even though we are looking at advanced modeling, we still must keep things as simple as possible.</p>
+      <nav>
+    <a id="me" href= "/"><img src="/../KL.png" style="height: 60px; width: 40px;"></a>
+
+
+
+      <ul>
+                <li><a href="http://kaylalewis.net/projects.html">Projects</a></li>
+                <li><a href="http://kaylalewis.net/sketchbook.html">Sketchbook</a></li>
+                 <li><a href="http://kaylalewis.net/about.html">About</a></li>
+</ul>
+
+
+      </nav>
+    </header>
+
+
+
+
+    <h1>Week 7</h1>
+<div class="postImg">
+<p>Rhino allows for more complex modeling, which can lead to organic shapes. For printing purposes, models must always be kept clean. Even though we are looking at advanced modeling, we still must keep things as simple as possible.</p>
 
 <p>NURBS (non-uniform rational b-splines) are everything: curves, surfaces, objects. <a class="two" href="http://www.rhino3d.com/nurbs">This</a> breaks down what NURBS mean very well NURBS are made specifically for point-based modeling.</p>
 
@@ -69,7 +85,7 @@
 
 <p>Surface- like stretching a sheet over your curves.</p>
 
-<p>Polysurface- multiple surfaces. Fills in and closes objects, making them 3D, can be opened too. </p>
+<p>Polysurface- multiple surfaces. Fills in and closes objects, making them 3D, can be opened too.</p>
 
 <p>Solid- surfaces joined along a shared edge, closed.</p>
 
@@ -96,7 +112,7 @@
 <p>Manipulating control points in NURBS is much more controlled and printable (left). The right mesh manipulation is messy.
 <img src="/img/curvenvmpoints.png" /></p>
 
-<p>Meshes provide precision for more organic objects, but 3D printing a mesh modeled in Rhino is much more difficult than NURBS, which are easier to fix and keep simple. Because, as always with 3D printing and Rhino, simple is key. </p>
+<p>Meshes provide precision for more organic objects, but 3D printing a mesh modeled in Rhino is much more difficult than NURBS, which are easier to fix and keep simple. Because, as always with 3D printing and Rhino, simple is key.</p>
 
 <p>Additionally, meshes have their own set of commands (found under the mesh tab) that differ from the commands we’ve learned thus far (NURBS commands).</p>
 
@@ -126,42 +142,23 @@
 <p><a class="two" href="http://crit.artic.edu/aoc/pdfs/aoc_3dpprep.pdf">AOC File Setup</a></p>
 
 </div>
+
+
+
+
+
+
+<footer class="col-md-12">
+  @2016 Kayla Lewis
+</footer>
 </div>
-</div>
 
-<div class="grid-half float-center">
-
-    <footer>
-      @2015 <a href="kaylalewis.net" class="three">Kayla Lewis</a>
-    </footer>
-</div>
-    </body>
-
-    <script src="/js/kraken.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-            <script src='js/smooth/bind-polyfill.js'></script>
-    <script src='js/smooth/smooth-scroll.js'></script>
+
     <script>
-        smoothScroll.init({
-            speed: 1000,
-            easing: 'easeInOutCubic',
-            offset: 200,
-            updateURL: true,
-            callbackBefore: function ( toggle, anchor ) {},
-            callbackAfter: function ( toggle, anchor ) {}
-        });
-    </script>
-
-
-
-</html>
-
-
-<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -171,3 +168,6 @@
   ga('send', 'pageview');
 
 </script>
+    </body>
+
+</html>

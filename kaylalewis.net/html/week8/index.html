@@ -33,7 +33,6 @@
     <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
 
     <!-- Feature Test -->
-    <script src="/js/feature-test.js"></script>
 
     <!-- HTML5 Shim for IE 6-8 -->
     <!--[if lt IE 9]>
@@ -41,25 +40,42 @@
     <![endif]-->
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="/css/kraken.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abel|Oxygen:400,300' rel='stylesheet' type='text/css'>
 
 </head>
 
 
 <body>
 
- <header class="classpost">Week 8</header>
- <div class="htmlclasssubtitle">Using jQuery</div>
+<div class = "col-md-8 col-md-offset-2">
 
-<div class="container">
-<div class="grid-three-fourths float-center">
-<div class="classpost">
+<header>
 
-  <p><a href="http://jquery.com" class="three">jQuery</a> (whose motto is “write less, do more”) is a JavaScript library that avoids the tedious structure of JavaScript by condensing syntax and providing quick solutions to a multitude of JavaScript-related tasks. jQuery comes in handy for things like smooth scrolling and parallax effects, which is what we will cover today.</p>
+      <nav>
+    <a id="me" href= "/"><img src="/../KL.png" style="height: 60px; width: 40px;"></a>
 
-<p>Plus this into the end of your webpage: </p>
+
+
+      <ul>
+                <li><a href="http://kaylalewis.net/projects.html">Projects</a></li>
+                <li><a href="http://kaylalewis.net/sketchbook.html">Sketchbook</a></li>
+                 <li><a href="http://kaylalewis.net/about.html">About</a></li>
+</ul>
+
+
+      </nav>
+    </header>
+
+
+
+
+    <h1>Week 8</h1>
+<div class="postImg">
+<p><a href="http://jquery.com" class="three">jQuery</a> (whose motto is “write less, do more”) is a JavaScript library that avoids the tedious structure of JavaScript by condensing syntax and providing quick solutions to a multitude of JavaScript-related tasks. jQuery comes in handy for things like smooth scrolling and parallax effects, which is what we will cover today.</p>
+
+<p>Plus this into the end of your webpage:</p>
 
 <pre><code>			&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"&gt;&lt;/script&gt;
 </code></pre>
@@ -73,45 +89,24 @@
 <p><a class="three" href="../../week8.zip" target="_blank">
 End product source code</a></p>
 
-
-</div>
-</div>
 </div>
 
 
-<div class="grid-half float-center">
 
-    <footer>
-      @2015 <a href="kaylalewis.net" class="three">Kayla Lewis</a>
-    </footer>
+
+
+
+<footer class="col-md-12">
+  @2016 Kayla Lewis
+</footer>
 </div>
-    </body>
 
-    <script src="/js/kraken.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-            <script src='js/smooth/bind-polyfill.js'></script>
-    <script src='js/smooth/smooth-scroll.js'></script>
+
     <script>
-        smoothScroll.init({
-            speed: 1000,
-            easing: 'easeInOutCubic',
-            offset: 200,
-            updateURL: true,
-            callbackBefore: function ( toggle, anchor ) {},
-            callbackAfter: function ( toggle, anchor ) {}
-        });
-    </script>
-
-
-
-</html>
-
-
-<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -121,3 +116,6 @@ End product source code</a></p>
   ga('send', 'pageview');
 
 </script>
+    </body>
+
+</html>

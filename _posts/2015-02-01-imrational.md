@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects/post
 title: Not that different
 category: sketch
 ---

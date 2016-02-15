@@ -33,7 +33,6 @@
     <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
 
     <!-- Feature Test -->
-    <script src="/js/feature-test.js"></script>
 
     <!-- HTML5 Shim for IE 6-8 -->
     <!--[if lt IE 9]>
@@ -41,23 +40,40 @@
     <![endif]-->
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="/css/kraken.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abel|Oxygen:400,300' rel='stylesheet' type='text/css'>
 
 </head>
 
 
 <body>
 
- <header class="classpost">Week 2</header>
- <div class="classsubtitle">Points and Lines</div>
+<div class = "col-md-8 col-md-offset-2">
 
-<div class="container">
-<div class="grid-three-fourths float-center">
-<div class="classpost">
+<header>
 
-	<p>Points and lines are the most accurate way of modeling in Rhino. Rhino differs from programs like Maya in that it is design-based and its emphasis lies in models made for output, like 3D printing. Therefore, complex meshes used for animation and character modeling are not used in Rhino. There are ways, such as using Grasshopper, but for the most part, the key concept in Rhino is to keep it simple with NURBS and basic polygons.</p>
+      <nav>
+    <a id="me" href= "/"><img src="/../KL.png" style="height: 60px; width: 40px;"></a>
+
+
+
+      <ul>
+                <li><a href="http://kaylalewis.net/projects.html">Projects</a></li>
+                <li><a href="http://kaylalewis.net/sketchbook.html">Sketchbook</a></li>
+                 <li><a href="http://kaylalewis.net/about.html">About</a></li>
+</ul>
+
+
+      </nav>
+    </header>
+
+
+
+
+    <h1>Week 2</h1>
+<div class="postImg">
+<p>Points and lines are the most accurate way of modeling in Rhino. Rhino differs from programs like Maya in that it is design-based and its emphasis lies in models made for output, like 3D printing. Therefore, complex meshes used for animation and character modeling are not used in Rhino. There are ways, such as using Grasshopper, but for the most part, the key concept in Rhino is to keep it simple with NURBS and basic polygons.</p>
 
 <p>Using points and lines to build three dimensional objects allows for this level of accuracy and avoids messy modeling, which is a nightmare for 3D printing.</p>
 
@@ -94,42 +110,23 @@ When you make a polygon, if you need to manipulate it after it’s been extruded
 <p>Also, <a class="two" href="http://edutechwiki.unige.ch/en/3D_file_format">here</a> is a list of file format extensions for 3D. Pretty helpful when saving and exporting.</p>
 
 </div>
+
+
+
+
+
+
+<footer class="col-md-12">
+  @2016 Kayla Lewis
+</footer>
 </div>
-</div>
 
-<div class="grid-half float-center">
-
-    <footer>
-      @2015 <a href="kaylalewis.net" class="three">Kayla Lewis</a>
-    </footer>
-</div>
-    </body>
-
-    <script src="/js/kraken.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-            <script src='js/smooth/bind-polyfill.js'></script>
-    <script src='js/smooth/smooth-scroll.js'></script>
+
     <script>
-        smoothScroll.init({
-            speed: 1000,
-            easing: 'easeInOutCubic',
-            offset: 200,
-            updateURL: true,
-            callbackBefore: function ( toggle, anchor ) {},
-            callbackAfter: function ( toggle, anchor ) {}
-        });
-    </script>
-
-
-
-</html>
-
-
-<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -139,3 +136,6 @@ When you make a polygon, if you need to manipulate it after it’s been extruded
   ga('send', 'pageview');
 
 </script>
+    </body>
+
+</html>

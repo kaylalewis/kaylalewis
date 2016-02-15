@@ -33,7 +33,6 @@
     <meta name="msapplication-TileImage" content="img/ms-touch-icon.png">
 
     <!-- Feature Test -->
-    <script src="/js/feature-test.js"></script>
 
     <!-- HTML5 Shim for IE 6-8 -->
     <!--[if lt IE 9]>
@@ -41,23 +40,40 @@
     <![endif]-->
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="/css/kraken.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abel|Oxygen:400,300' rel='stylesheet' type='text/css'>
 
 </head>
 
 
 <body>
 
- <header class="classpost">Week 7</header>
- <div class="htmlclasssubtitle">Motion and Audio</div>
+<div class = "col-md-8 col-md-offset-2">
 
-<div class="container">
-<div class="grid-three-fourths float-center">
-<div class="classpost">
+<header>
 
-  <p>Today we will build another site from a Photoshop prototype:</p>
+      <nav>
+    <a id="me" href= "/"><img src="/../KL.png" style="height: 60px; width: 40px;"></a>
+
+
+
+      <ul>
+                <li><a href="http://kaylalewis.net/projects.html">Projects</a></li>
+                <li><a href="http://kaylalewis.net/sketchbook.html">Sketchbook</a></li>
+                 <li><a href="http://kaylalewis.net/about.html">About</a></li>
+</ul>
+
+
+      </nav>
+    </header>
+
+
+
+
+    <h1>Week 7</h1>
+<div class="postImg">
+<p>Today we will build another site from a Photoshop prototype:</p>
 
 <p><a class="three" href="../../week7.psd.zip" target="_blank"> Photoshop file </a></p>
 
@@ -89,45 +105,24 @@ We will also demo HTML5’s capability to directly embed video (and audio) into 
 
 <p>*to take a screenshot on Windows, hit ‘PrtScn’ on the top right of the keyboard and then paste the screenshot into Photoshop…or Paint.</p>
 
-
-</div>
-</div>
 </div>
 
 
-<div class="grid-half float-center">
 
-    <footer>
-      @2015 <a href="kaylalewis.net" class="three">Kayla Lewis</a>
-    </footer>
+
+
+
+<footer class="col-md-12">
+  @2016 Kayla Lewis
+</footer>
 </div>
-    </body>
 
-    <script src="/js/kraken.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <!-- (Via HTML5 Boilerplate: http://html5boilerplate.com/) -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-            <script src='js/smooth/bind-polyfill.js'></script>
-    <script src='js/smooth/smooth-scroll.js'></script>
+
     <script>
-        smoothScroll.init({
-            speed: 1000,
-            easing: 'easeInOutCubic',
-            offset: 200,
-            updateURL: true,
-            callbackBefore: function ( toggle, anchor ) {},
-            callbackAfter: function ( toggle, anchor ) {}
-        });
-    </script>
-
-
-
-</html>
-
-
-<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -137,3 +132,6 @@ We will also demo HTML5’s capability to directly embed video (and audio) into 
   ga('send', 'pageview');
 
 </script>
+    </body>
+
+</html>
