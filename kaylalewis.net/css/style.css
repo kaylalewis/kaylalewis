@@ -44,8 +44,8 @@ img {
 
 img.grid {
 
-	width: auto;
-	padding: 5px;
+	width: 30%;
+	padding: 4px;
 }
 
 img.grid:hover {
@@ -107,7 +107,7 @@ nav ul {
 
 nav li {
 	/*font-family: 'Georgia';*/
-	margin-right: 20px;
+	margin-right: 15px;
 	display: inline;
 	font-weight: normal;
 	/*border-bottom: 1px solid green;*/

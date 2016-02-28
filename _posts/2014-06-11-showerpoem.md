@@ -8,7 +8,7 @@ image: /img/main/shower2.jpg
 <div class="col-md-8">
 <img src="/img/shower1.jpg">
 
-<p>	"Shatter" uses poetry in the intimate space of a bathroom to encourage lone exploration and reconfiguration of chosen words.</p>
+<p>	"Shatter" was featured in One Night Stand (2014) at Above Market Gallery. It used poetry in an intimate space to encourage lone exploration and reconfiguration of words.</p>
 
 <img src="/img/shower2.jpg">
 
