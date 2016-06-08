@@ -3,8 +3,6 @@ layout: projects/page
 title: Posts
 ---
 
-<p>A place for things without a place.</p>
-<br>
 {% for post in site.posts %}
 				 {% if post.category == "sketch" or post.category == "blog" %}
 					<div class="borders"><a class = "postLink" href="{{ post.url }}"><h3>{{ post.title }}</a></h3><h4>{{post.date | date: '%B %d, %Y'}}</h4>
