@@ -1,5 +1,5 @@
 ---
-layout: projects/post
+layout: projects/projectTurn
 title: Caffeinizer
 category: art
 image: /img/main/caff1.jpg
@@ -8,24 +8,24 @@ image: /img/main/caff1.jpg
 
 
 <iframe src="//player.vimeo.com/video/56205705?title=0&amp;byline=0&amp;portrait=0" width="700" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<br>
-<br>
 
-<div class="row">
-<div class="col-md-8">
+
+<br>
+<div>
+<p>Caffeinizer epitomizes our dependence on coffee while we work by providing a tie with a coffeemaker embedded within. Sensors read the pulse of the user and trigger Caffeinizer to brew coffee when the pulse reaches a certain low.</p>
+
+<p>During the show, I wore Caffeinizer and participants touched the sensor on my wrist so that Caffeinizer could make coffee for them.</p>
+</div>
+
+<div>
 <img src="/img/caff5.jpg">
 </div>
-<div class="col-md-4">
-<p>Caffeinizer epitomizes our dependence on coffee while we work by providing a tie with a coffeemaker embedded within. Sensors read the pulse of the user and trigger Caffeinizer to brew coffee when the pulse reaches a certain low.
-<br>
-I focused heavily on ideas of branding and marketing the product as a way of life, not just an object in life. When people used Caffeinizer, they received a sticker that declared them "caffeinized."
-<br>
-During the show, I wore Caffeinizer and participants touched the sensor on my wrist so that Caffeinizer could make coffee for them.</p>
-</div>
-</div>
 
 <br>
+<p>I focused heavily on ideas of branding and marketing the product as a way of life, not just an object in life. When people used Caffeinizer, they received a sticker that declared them "caffeinized."</p>
+
 <br>
+
 
 <div class="row">
 <div class="col-md-3">

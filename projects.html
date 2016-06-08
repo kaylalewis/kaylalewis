@@ -3,24 +3,22 @@ layout: projects/page
 title: Projects
 ---
 
-<div class="container-fluid">
+
 <div class = "row">
- 				<a href="http://telestellar.com"><img class="grid" src="/img/main/telebook.png"></a>
-<a href="http://transelemental.com"><img class="grid" src="/img/main/pot4.jpg"></a>
+ 				<div class="col-xs-6 col-md-4 grid"><a href="http://telestellar.com"><img src="/img/main/telebook.png"></a></div>
+<div class="col-xs-6 col-md-4 grid"><a href="http://transelemental.com"><img src="/img/main/pot4.jpg"></a></div>
 
  			{% for post in site.posts %}
  				 {% if post.category == "art" %}
 
- 				 <a href="{{ post.url }}"><img class="grid" src="{{ post.image }}"></a>
+ 				   <div class="col-xs-6 col-md-4 grid"><a href="{{ post.url }}"><img src="{{ post.image }}"></a></div>
 
  					{% endif %}
  				{% endfor %}
 </div>
-      </div>
+<br>
 
-<br><br>
-
-<h3>Writing</h3>
+<!-- <h3>Writing</h3>
       <div class = "writing">
       <a href="http://uptake.com/building-with-creativity-and-logic/" class="notnav">"Building with Creativity and Logic"</a>
       <br>
@@ -43,4 +41,4 @@ title: Projects
       <a href="http://transelemental.com/book/"class="notnav">Transelemental</a>
       <br>
       <a href="http://openframeworks.cc/ofBook/chapters/foreword.html"class="notnav">ofBook</a>
-    </div>
+    </div> -->

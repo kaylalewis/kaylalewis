@@ -1,5 +1,5 @@
 ---
-layout: projects/post
+layout: projects/projectTurn
 title: Shatter
 category: art
 image: /img/main/shower2.jpg

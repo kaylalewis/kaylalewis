@@ -1,5 +1,5 @@
 ---
-layout: projects/post
+layout: projects/projectTurn
 title: Heliblender
 category: art
 image: /img/main/hb1.jpg

@@ -1,12 +1,17 @@
 ---
 layout: projects/page
-title: Sketchbook
+title: Posts
 ---
 
 <p>A place for things without a place.</p>
 <br>
 {% for post in site.posts %}
-				 {% if post.category == "sketch" %}
-					<div class="borders"><h3>{{ post.title }}</h3><h4>{{post.date | date: '%B %d, %Y'}}</h4>{{post.content}}</div>
+				 {% if post.category == "sketch" or post.category == "blog" %}
+					<div class="borders"><a class = "postLink" href="{{ post.url }}"><h3>{{ post.title }}</a></h3><h4>{{post.date | date: '%B %d, %Y'}}</h4>
+						{% if post.category == "blog" %}
+						<div class="excerpt"> {{post.excerpt}} <a class = "postExcerpt" href="{{ post.url }}">Read more...</a></div><br>
+							{% elsif post.category == "sketch" %}
+							{{ post.content }}
+							{% endif %}</div>
       			{% endif %}
 {% endfor %}
