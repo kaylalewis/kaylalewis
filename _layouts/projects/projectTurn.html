@@ -8,3 +8,18 @@ layout: default
 
 {{ content }}
 </div>
+<br><br><br><br><br>
+<div id = "bottom">
+<div class = "row">
+ 				<div class="col-xs-6 col-md-4 grid"><a href="http://telestellar.com"><img src="/img/main/telebook.png"></a></div>
+<div class="col-xs-6 col-md-4 grid"><a href="http://transelemental.com"><img src="/img/main/pot4.jpg"></a></div>
+
+ 			{% for post in site.posts %}
+ 				 {% if post.category == "art" %}
+
+ 				   <div class="col-xs-6 col-md-4 grid"><a href="{{ post.url }}"><img src="{{ post.image }}"></a></div>
+
+ 					{% endif %}
+ 				{% endfor %}
+</div>
+</div>
