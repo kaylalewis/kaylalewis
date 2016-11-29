@@ -76,7 +76,7 @@ a.postLink:hover {
 
 a.postExcerpt {
 
-	display: inline;
+	display: inline-block;
 }
 
 header {
