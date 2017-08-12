@@ -50,7 +50,7 @@ img {
 
 a {
 
-	color: #008080;
+	color: #00b3b3;
 
 }
 
@@ -89,6 +89,10 @@ header {
 
 nav{
 
+}
+
+.borderer {
+	border: 1px solid #d3d3d3;
 }
 
 nav a {
