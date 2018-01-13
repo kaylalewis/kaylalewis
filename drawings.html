@@ -1,0 +1,11 @@
+---
+layout: projects/page
+title: Drawings
+---
+<p>Prints available for purchase at <a href="http://zealous.press/">Zealous Press.</p>
+	
+{% for post in site.posts %}
+				 {% if post.category == "drawing" %}
+					<div class="borders"><a class = "postLink" href="{{ post.url }}"><h3>{{ post.title }}</a></h3><h4>{{post.date | date: '%Y'}}</h4>
+							{{ post.content }}</div> {% endif %}
+{% endfor %}
