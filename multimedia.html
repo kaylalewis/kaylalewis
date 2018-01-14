@@ -1,44 +1,21 @@
 ---
 layout: projects/page
 title: Multimedia
+active: multimedia
 ---
 
 
 <div class = "row">
- 				<div class="col-xs-6 col-md-4 grid"><a href="http://telestellar.com"><img src="/img/main/telebook.png"></a></div>
-<div class="col-xs-6 col-md-4 grid"><a href="http://transelemental.com"><img src="/img/main/pot4.jpg"></a></div>
 
- 			{% for post in site.posts %}
- 				 {% if post.category == "art" %}
+	<div class="col-xs-6 col-md-4 grid"><a href="http://zealous.press" target="_blank"><img src="/img/ZPPINKSMIG.jpg"></a></div>
 
- 				   <div class="col-xs-6 col-md-4 grid"><a href="{{ post.url }}"><img src="{{ post.image }}"></a></div>
+  {% for post in site.posts %}
+     {% if post.category == "artII" %}
 
- 					{% endif %}
- 				{% endfor %}
+       <div class="col-xs-6 col-md-4 grid"><a href="{{ post.url }}"><img src="{{ post.image }}"></a></div>
+
+      {% endif %}
+    {% endfor %}
+
 </div>
 <br>
-
-<!-- <h3>Writing</h3>
-      <div class = "writing">
-      <a href="http://uptake.com/building-with-creativity-and-logic/" class="notnav">"Building with Creativity and Logic"</a>
-      <br>
-      <a href="http://fnewsmagazine.com/2015/03/23/what-it-means-to-be-al2o3ne/" class="notnav">"What it means to be Al2O3Ne"</a>
-      <br>
-      <a href="http://fnewsmagazine.com/wp-2/2015/01/14/writing-the-future-wrong/" class="notnav">"Writing The Future Wrong: William Gibson and the success of his failures"</a>
-      <br>
-      <a href="http://fnewsmagazine.com/wp-2/2014/11/25/holographic-histories/" class="notnav">"Holographic Histories: Saving Chicago's only holography collection"</a>
-      <br>
-      <a href="http://fnewsmagazine.com/wp-2/2014/11/05/kyle-mcdonald-the-only-thing-thats-consistent-is-sharing/" class="notnav">"The Only Thing That's Consistent is Sharing: An interview with Kyle McDonald"</a>
-      <br>
-      <a href="http://fnewsmagazine.com/wp-2/2014/11/05/open-curiosity-open-source/" class="notnav">"Open Curiosity, Open Source: The INST-INT art and tech conference"</a>
-      <br>
-      <a href="http://fnewsmagazine.com/wp-2/2014/10/05/startups-versus-astronauts/" class="notnav">"Startups Versus Astronauts: The current players in outer space exploration"</a>
-      <br>
-      <a href="http://fnewsmagazine.com/wp-2/2014/09/11/compasses-not-maps/" class="notnav">"Compasses Not Maps: The emergence of speculative design"</a>
-      <br>
-      <a href="http://fnewsmagazine.com/wp-2/2013/10/03/out-of-the-lab-and-into-the-gallery/"class="notnav">"Out of the lab and into the gallery"</a>
-      <br>
-      <a href="http://transelemental.com/book/"class="notnav">Transelemental</a>
-      <br>
-      <a href="http://openframeworks.cc/ofBook/chapters/foreword.html"class="notnav">ofBook</a>
-    </div> -->

@@ -1,5 +1,5 @@
 ---
-layout: projects/post
+layout: projects/postArt
 title: As far back as I can remember, I always wanted to be a gangster (but I can't so I'll paint them instead).
 category: paint
 ---

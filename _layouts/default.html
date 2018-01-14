@@ -58,14 +58,72 @@
 
 
 
-      <ul>
-                <li><a href="{{ site.url }}">Multimedia</a></li>
+      <!-- <ul>
+                <li><a href="{{ site.url }}/multimedia.html">Multimedia</a></li>
                 <li><a href="{{ site.url }}/paintings.html">Paintings</a></li>
                 <li><a href="{{ site.url }}/drawings.html">Drawings</a></li>
                 <li><a href="{{ site.url }}/blog.html">Blog</a></li>
                  <li><a href="{{ site.url }}/about.html">About</a></li>
-</ul>
+</ul> -->
 
+
+<div id="mobile" class="scrollmenu">
+    {% if page.active == "index" %}
+        <span class="active"><a href="#">Multimedia</a></span>
+    {% else %}
+        <span><a href="/">Multimedia</a></span>
+    {% endif %}
+    {% if page.active == "paintings" %}
+        <span class="active"><a href="#">Paintings</a></span>
+    {% else %}
+        <span><a href="{{ site.url }}/paintings.html">Paintings</a></span>
+    {% endif %}
+    {% if page.active == "drawings" %}
+        <span class="active"><a href="#">Drawings</a></span>
+    {% else %}
+        <span><a href="{{ site.url }}/drawings.html">Drawings</a></span>
+    {% endif %}
+    {% if page.active == "blog" %}
+        <span class="active"><a href="#">Blog</a></span>
+    {% else %}
+        <span><a href="{{ site.url }}/blog.html">Blog</a></span>
+    {% endif %}
+    {% if page.active == "about" %}
+        <span class="active"><a href="#">About</a></span>
+    {% else %}
+        <span><a href="{{ site.url }}/about.html">About</a></span>
+    {% endif %}
+</div>
+
+
+
+<ul id="desktop">
+    {% if page.active == "index" %}
+        <li class="active"><a href="#">Multimedia</a></li>
+    {% else %}
+        <li><a href="/">Multimedia</a></li>
+    {% endif %}
+    {% if page.active == "paintings" %}
+        <li class="active"><a href="#">Paintings</a></li>
+    {% else %}
+        <li><a href="{{ site.url }}/paintings.html">Paintings</a></li>
+    {% endif %}
+    {% if page.active == "drawings" %}
+        <li class="active"><a href="#">Drawings</a></li>
+    {% else %}
+        <li><a href="{{ site.url }}/drawings.html">Drawings</a></li>
+    {% endif %}
+    {% if page.active == "blog" %}
+        <li class="active"><a href="#">Blog</a></li>
+    {% else %}
+        <li><a href="{{ site.url }}/blog.html">Blog</a></li>
+    {% endif %}
+    {% if page.active == "about" %}
+        <li class="active"><a href="#">About</a></li>
+    {% else %}
+        <li><a href="{{ site.url }}/about.html">About</a></li>
+    {% endif %}
+</ul>
 
       </nav>
     </header>
