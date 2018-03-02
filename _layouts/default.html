@@ -68,10 +68,15 @@
 
 
 <div id="mobile" class="scrollmenu">
-    {% if page.active == "index" %}
+  <!-- {% if page.active == "index" %}
+      <span class="active"><a href="#">Multimedia</a></span>
+  {% else %}
+      <span><a href="/">Multimedia</a></span>
+  {% endif %} -->
+    {% if page.active == "multimedia" %}
         <span class="active"><a href="#">Multimedia</a></span>
     {% else %}
-        <span><a href="/">Multimedia</a></span>
+        <span><a href="{{ site.url }}/multimedia.html">Multimedia</a></span>
     {% endif %}
     {% if page.active == "paintings" %}
         <span class="active"><a href="#">Paintings</a></span>
@@ -98,10 +103,10 @@
 
 
 <ul id="desktop">
-    {% if page.active == "index" %}
+    {% if page.active == "multimedia" %}
         <li class="active"><a href="#">Multimedia</a></li>
     {% else %}
-        <li><a href="/">Multimedia</a></li>
+        <li><a href="{{ site.url }}/multimedia.html">Multimedia</a></li>
     {% endif %}
     {% if page.active == "paintings" %}
         <li class="active"><a href="#">Paintings</a></li>
