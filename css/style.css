@@ -8,6 +8,10 @@ body {
 
 }
 
+.smallPic{
+	width: 40%;
+}
+
 h1 {
 	font-size: 28px;
 }
