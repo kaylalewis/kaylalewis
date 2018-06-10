@@ -78,15 +78,15 @@
     {% else %}
         <span><a href="{{ site.url }}/multimedia.html">Multimedia</a></span>
     {% endif %}
-    {% if page.active == "paintings" %}
-        <span class="active"><a href="#">Paintings</a></span>
-    {% else %}
-        <span><a href="{{ site.url }}/paintings.html">Paintings</a></span>
-    {% endif %}
     {% if page.active == "drawings" %}
-        <span class="active"><a href="#">Drawings</a></span>
+        <span class="active"><a href="#">Illustration</a></span>
     {% else %}
-        <span><a href="{{ site.url }}/drawings.html">Drawings</a></span>
+        <span><a href="{{ site.url }}/drawings.html">Illustration</a></span>
+    {% endif %}
+    {% if page.active == "paintings" %}
+        <span class="active"><a href="#">Painting</a></span>
+    {% else %}
+        <span><a href="{{ site.url }}/paintings.html">Painting</a></span>
     {% endif %}
     {% if page.active == "blog" %}
         <span class="active"><a href="#">Blog</a></span>
@@ -108,15 +108,15 @@
     {% else %}
         <li><a href="{{ site.url }}/multimedia.html">Multimedia</a></li>
     {% endif %}
-    {% if page.active == "paintings" %}
-        <li class="active"><a href="#">Paintings</a></li>
-    {% else %}
-        <li><a href="{{ site.url }}/paintings.html">Paintings</a></li>
-    {% endif %}
     {% if page.active == "drawings" %}
-        <li class="active"><a href="#">Drawings</a></li>
+        <li class="active"><a href="#">Illustration</a></li>
     {% else %}
-        <li><a href="{{ site.url }}/drawings.html">Drawings</a></li>
+        <li><a href="{{ site.url }}/drawings.html">Illustration</a></li>
+    {% endif %}
+    {% if page.active == "paintings" %}
+        <li class="active"><a href="#">Painting</a></li>
+    {% else %}
+        <li><a href="{{ site.url }}/paintings.html">Painting</a></li>
     {% endif %}
     {% if page.active == "blog" %}
         <li class="active"><a href="#">Blog</a></li>

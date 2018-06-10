@@ -3,6 +3,7 @@ layout: projects/projectTurn
 title: Telestellar
 category: artII
 image: /img/main/telebook.png
+year: 2015
 ---
 
 
