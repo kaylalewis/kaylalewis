@@ -2,10 +2,45 @@ body {
 	color: #484848;
 	background-color: #ffffff;
 	/*font-family: "Palatino", serif;*/
-	font-family: 'Oxygen', sans-serif;
-	font-weight: normal;
+	font-family: "acumin-pro-semi-condensed";
 	margin: 30px auto 0 auto;
+	font-weight: lighter;
 
+}
+
+.designprojects {
+	margin-bottom: 50px
+}
+
+#design ul > li {
+	font-size: 18px
+}
+
+#design h4{
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.designhead h4{
+	font-size: 21px;
+	padding-top: 25px;
+	font-weight: bold;
+	margin-bottom: 0
+}
+
+.designhead{
+	margin: 25px 0
+}
+
+.designinfo{
+	padding: 25px;
+	margin: 25px 0;
+	background: grey;
+	color: white
+}
+
+#design .lists{
+	margin: 25px 0
 }
 
 #mc_embed_signup{background:#fff; clear:left; width:100%;}
